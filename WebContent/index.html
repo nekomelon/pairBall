@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="content/dojo/dijit/themes/claro/claro.css">
+		<script>
+			dojoConfig = {
+				parseOnLoad: false,
+				async: true,
+				baseUrl: 'content',
+				packages: [{
+					name: "dojo",
+					location: 'dojo/dojo'
+				}, {
+					name: "dijit",
+					location: 'dojo/dijit'
+				}, {
+					name: "dojox",
+					location: 'dojo/dojox'
+				}, {
+					name: "app",
+					location: 'app'
+				}]
+			}
+		</script>
+		<script src="content/dojo/dojo/dojo.js"></script>
+		<script src="content/app/index.js"></script>
+		<title>pair ball test</title>
+	</head>
+	<body class="claro">
+		<div id="dvLoading"><span>loading ...</span></div>
+	</body>
+</html>
